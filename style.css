@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Lora', serif;
+    line-height: 27px;
+}
+a{
+    text-decoration: none;
+    color: #333; 
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+.container{
+    margin: auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.span{
+    color: #a4c3ad;;
+}
+.current{
+
+    background-color: #444;
+    color: #a4c3ad;
+}
+.bg-dark{
+    background-color: #ebc1c389;
+    color: black;
+}
+#btn{
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;    
+}
+/*navbar*/
+/*content*/
+#navbar{
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar a{
+    color: white;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    display: inline-block;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover{
+    background-color: #444;
+    color: #a4c3ad;
+}
+#showcase{
+    background-image:url(bedpicl.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+}
+#showcase #showcase-content{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase #showcase-content .title1{
+    font-size: 38px;
+}
+#showcase #showcase-content .lux{
+    font-family: 'Square Peg', cursive;
+    font-size: 33px;
+}
+#showcase #showcase-content #btn{
+    background-color: rgba(12, 12, 12, 0.678);
+}
+#showcase #showcase-content #btn:hover{
+    background-color: #a4c3ad94;
+}
+#showcase #showcase-content a{
+    color: white;}
+section div #btn{
+    background-color: #fdf5eed5
+}
+#section1{
+    overflow: auto;
+}
+#section1 .img{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-image: url(pexels-faruk-tokluoğlu-8013910short.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section1 .section1-content1{
+    float: right;
+    width: 50%;
+    height: 400px;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+#section1 .section1-content1 #btn{
+    width:110px ;
+}
+#section1 .section1-content1 #btn:hover{
+    background-color: #eeeaea98;
+}
+.box,.box .bg-dark{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    height:250px
+    
+}
+.inside{
+    padding-top: 80px;
+}
+/*content ends*/
+/*about*/
+#about-info{
+    padding: 40px 0px 20px 0px;
+}
+#about-info .info-right{
+    display: inline-block;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 60%;
+    border-radius: 60%;
+}
+#about-info .info-left{
+    display: inline-block;
+    width: 49%;
+    font-family: 'Square Peg', cursive;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+#about-info .info-left h1{
+    font-size: 40px;
+}
+/*Testmonials*/
+#testmonials{
+    height: 600px;
+    background-image: url("test-bg.jpg");
+    background-size: cover;
+    padding-top: 100px;
+}
+#testmonials h1{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#testmonials .testmonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+#testmonials .testmonial img{
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+/*about end*/
+/*Contact*/
+#contact-form{
+    padding: 30px 0;
+}
+#contact-form h1{
+    font-size: 32px;
+    padding-top: 30px;
+}
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form .form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form .form-group input,
+#contact-form .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+#contact-form .form-group textarea{
+    height: 200px;
+}
+#contact-form .container button{
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+#contact-form .container button:hover{
+    background-color: #a4c3ad;
+}
+
+/*contact ends*/
+/*history*/
+    #history-bg{
+        background-image:url(pexels-rick-han-in.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        color: white;
+        background-color:#333;
+    }
+    #history .head{
+        font-size: 48px;
+        padding: 40px 30px 10px 30px;
+        font-family: 'Island Moments', cursive;
+        font-weight: 900;
+    }
+    #history #all{
+        font-size: 17px;
+        font-family: 'Lora', serif;
+        font-style: italic;
+    }
+    #history #all #first{
+        padding: 10px 40px 10px 40px;
+    }
+    #history #all ul{
+        list-style-type: circle;
+        padding: 30px 80px 30px 80px;
+        background-color: #30250666;
+        width: 80%;
+        margin-left: 110px;
+        border-radius: 15px;
+    }
+    #history #all #second-first{
+        padding: 20px 40px 10px 40px;
+    }
+    #history #all #second-second{
+        padding: 10px 40px 10px 40px;
+    }
+    #history #all #last{
+        padding: 10px 40px 40px 40px;
+    }
+/*history ends*/
+/*footer*/
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+/*footer ends*/
